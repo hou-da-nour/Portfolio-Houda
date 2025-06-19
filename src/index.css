@@ -1,11 +1,12 @@
-@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
 
-
-html{
+/* Tes styles personnalisés */
+html {
   scroll-behavior: smooth;
 }
 
-.image{
+.image {
   background-image: url("/mon-portfolio/public/nour.jpg");
 }
 
@@ -30,4 +31,3 @@ html{
     opacity: 0.4;
   }
 }
-
